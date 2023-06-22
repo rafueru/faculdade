@@ -1,11 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Gerenciamento de Alunos</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <div id="content"></div>
-</body>
-</html>
+<?php
+include 'functions.php';
+// Your PHP code here.
+
+// Home Page template below.
+?>
+
+<?=template_header('Home')?>
+
+<div class="content">
+	<h2>Home</h2>
+	<p>Cadastro de alunos!</p>
+</div>
+
+<?=template_footer()?>
+
+<div class="content">
+    <h2>Cadastro de Alunos</h2>
+    <p>Use uma das opções abaixo para se cadastrar:</p>
+  
+</div>
