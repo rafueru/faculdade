@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22/06/2023 às 23:24
+-- Tempo de geração: 22/06/2023 às 23:45
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -24,6 +24,19 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estrutura para tabela `alunos`
+--
+
+CREATE TABLE `alunos` (
+  `id` int(6) UNSIGNED NOT NULL,
+  `nome` varchar(30) NOT NULL,
+  `email` varchar(50) DEFAULT NULL,
+  `matricula` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura para tabela `contacts`
 --
 
@@ -31,8 +44,19 @@ CREATE TABLE `contacts` (
   `id` int(11) NOT NULL,
   `nome` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
-  `telefone` varchar(20) DEFAULT NULL
+  `telefone` varchar(20) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `title` varchar(100) DEFAULT NULL,
+  `created` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Despejando dados para a tabela `contacts`
+--
+
+INSERT INTO `contacts` (`id`, `nome`, `email`, `telefone`, `name`, `phone`, `title`, `created`) VALUES
+(1, NULL, '', NULL, '', '', '', '2023-06-23 02:41:00');
 
 -- --------------------------------------------------------
 
@@ -73,6 +97,12 @@ INSERT INTO `contatos` (`id`, `aluno`, `email`, `telefone`, `curso`, `criado_em`
 --
 
 --
+-- Índices de tabela `alunos`
+--
+ALTER TABLE `alunos`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Índices de tabela `contacts`
 --
 ALTER TABLE `contacts`
@@ -89,10 +119,16 @@ ALTER TABLE `contatos`
 --
 
 --
+-- AUTO_INCREMENT de tabela `alunos`
+--
+ALTER TABLE `alunos`
+  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
 -- AUTO_INCREMENT de tabela `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `contatos`
