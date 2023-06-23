@@ -24,7 +24,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 **FRONT-END**     
 - HTML
 - CSS
-- JavaScript
 -  PHP
 
 
