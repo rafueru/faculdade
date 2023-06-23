@@ -1,123 +1,59 @@
-# faculdade
+<h1 align="center"> Cadastro de Alunos | CRUD - SpringBoot</h1>
 
-Nome Rafael Albuquerque e Silva
-E-mail 202211560765@alunos.estacio.br
-Matricula 202211560765
+<p align="center">
+  <a href="#-grupo">Squad</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-Nome Lucas Targino Gomes Lima 
-E-mail 202211459037@alunos.estacio.br
-Matricula 202211459037
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+ <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-Este trabalho final tem como objetivo
-demonstrar o conhecimento adquirido na
-disciplina de Desenvolvimento Web, que
-envolve HTML, CSS, JavaScript e PHP.
-Será criado um CRUD (Create, Read, Update,
-Delete) para gerenciamento de alunos,
-utilizando as linguagens de marcação e
-estilos HTML e CSS, a linguagem de
-programação JavaScript para adicionar
-interatividade, e PHP para programar as
-páginas dinâmicas e conexão com o banco
-de dados.
-Além disso, será implementado um
-sistema de login e senha para acesso ao
-CRUD, utilizando técnicas de criptografia
-para garantir a segurança dos dados.
-Introdução
-03
-Primeira apresentação das páginas
-iniciais e formatos CSS, com valor
-de 4 pontos (40%),
-Segunda demonstração de todas
-as páginas com estilos e scripts,
-valendo 3,5 pontos (35%), e,
-Entrega final, com apresentação do
-sistema de controle acadêmico e
-funcionalidades de comunicação
-com o banco de dados, valendo
-2,5 pontos (25%)
-A avaliação do projeto será dividida em
-três partes, sendo:
-Avaliação
-04
-Os dados serão criptografados antes de
-serem armazenados no banco de dados.
-Para verificar as credenciais do usuário, será
-criado um script em PHP que irá comparar a
-senha criptografada no banco de dados
-com a senha inserida pelo usuário.
-Uma vez autenticado, o usuário será
-redirecionado para a página principal do
-CRUD, que exibirá uma lista dos alunos
-cadastrados.
-A partir daí, o usuário poderá criar, ler,
-atualizar e deletar registros de alunos no
-banco de dados.
-Para criar o sistema de login e senha, será
-utilizado o método POST para enviar os dados
-do usuário para o servidor. Serão requisitos:
-Desenvolvimento
-05
-Para criar um novo aluno, será criado um formulário
-HTML que permitirá ao usuário inserir os dados do
-novo registro.
-Através do método POST, esses dados serão
-enviados para o banco de dados e o novo registro será
-adicionado.
-Já a página de leitura (read.php) será responsável por
-exibir os dados de um aluno específico. Nessa página,
-o usuário poderá visualizar todos os detalhes do
-registro, incluindo informações de contato, notas e
-outras informações relevantes.
-Para atualizar ou deletar um registro específico, será
-criado um formulário que permitirá ao usuário editar as
-informações do registro selecionado ou excluí-lo
-permanentemente do banco de dados.
-Esse formulário será exibido quando o usuário clicar
-no botão "editar" ou "excluir" na página principal do
-CRUD.
-Desenvolvimento
-06
-Semana 1: Introdução
-Apresentação do projeto e definição dos requisitos.
-Instalação das ferramentas necessárias (servidor web,
-editor de texto, etc.)
-Semana 2: Desenvolvimento da Estrutura
-Básica
-Criação do layout e da estrutura básica do projeto em
-HTML
-Início do desenvolvimento do estilo CSS
-Semana 3: Desenvolvimento das
-Funcionalidades
-Implementação das funcionalidades de login e cadastro de
-alunos
-Conexão com o banco de dados para armazenamento de
-informações dos alunos
-Semana 4: Desenvolvimento da Página
-Principal
-Desenvolvimento da página principal do sistema de
-controle acadêmico
-Implementação das funcionalidades de listagem e
-exclusão de alunos
-Cronograma
-07
-Semana 5: Desenvolvimento da Página
-de Edição de Alunos
-Implementação das funcionalidades de edição e
-atualização de informações dos alunos
-Finalização do estilo CSS do projeto
-Semana 6: Testes e Correções
-Testes e correções finais em todas as
-funcionalidades do sistema
-Preparação para a entrega do projeto
-Semana 7: Entrega do Projeto
-Entrega da primeira parte do projeto (HTML e CSS)
-Apresentação do projeto para a turma
-Semana 8: Finalização e Apresentação
-Entrega final do projeto com todas as
-funcionalidades implementadas (HTML, CSS,
-JavaScript e PHP)
-Apresentação final do sistema de controle
-acadêmico incluindo as funcionalidades de
-comunicação com o banco de dados.
+<p align="center">
+  <img alt="creataccount" src="/UI Design/final.png" width="100%">
+</p>
+
+## 🚀 | Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+**FRONT-END**     
+- HTML
+- CSS
+- JavaScript
+- Jquery
+- Bootstrap
+
+**BACK END**
+- Java
+- SpringBoot
+- Spring Security
+- JPA Repository
+- Thymeleaf
+
+**BANCO DE DADOS**
+- MySQL
+
+## 💻 | Projeto
+
+Esse é um site para Cadastro de Alunos, com as funções de listar, cadastrar, editar, remover alunos, gera relatório em PDF para download com os dados dos alunos,
+Autenticação com Spring Security!😉
+
+## 📌 | Extras
+- Validação de CPF
+- Insire dados de endereço apenas pelo CEP utilizando a API dos Correios
+- Totalmente integrado com o banco de dados
+
+## 🔖 | Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/VkqslPA4GSUkkYKwNgXsJz/Cadastro-de-Alunos?node-id=0%3A1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
