@@ -1,5 +1,12 @@
 # faculdade
 
+Nome Rafael Albuquerque e Silva
+E-mail 202211560765@alunos.estacio.br
+Matricula 202211560765
+
+Nome Lucas Targino Gomes Lima 
+E-mail 202211459037@alunos.estacio.br
+Matricula 202211459037
 
 Este trabalho final tem como objetivo
 demonstrar o conhecimento adquirido na
