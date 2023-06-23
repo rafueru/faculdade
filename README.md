@@ -1,4 +1,4 @@
-<h1 align="center"> Cadastro de Alunos | CRUD - SpringBoot</h1>
+<h1 align="center"> Cadastro de Alunos | CRUD </h1>
 
 <p align="center">
   <a href="#-grupo">Squad</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -25,15 +25,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
-- Jquery
-- Bootstrap
+-  PHP
 
-**BACK END**
-- Java
-- SpringBoot
-- Spring Security
-- JPA Repository
-- Thymeleaf
 
 **BANCO DE DADOS**
 - MySQL
